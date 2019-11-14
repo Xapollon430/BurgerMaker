@@ -25,6 +25,4 @@ const App = () => {
 	);
 };
 
-let x = 110;
-
 ReactDOM.render(<App />, document.getElementById("root"));
