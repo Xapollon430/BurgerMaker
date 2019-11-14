@@ -6,23 +6,25 @@ import BuildControls from "./Components/BuildControls/BuildControls";
 import "./index.css";
 
 const App = () => {
-  let [ingredients, updateIngredients] = useState({
-    salad: 1,
-    cheese: 0,
-    meat: 1,
-    bacon: 0
-  });
+	let [ingredients, updateIngredients] = useState({
+		salad: 1,
+		cheese: 0,
+		meat: 1,
+		bacon: 0
+	});
 
-  const addIngredient = label => {};
+	const addIngredient = label => {};
 
-  const removeIngredient = label => {};
+	const removeIngredient = label => {};
 
-  return (
-    <div>
-      <Burger ingredients={ingredients} />
-      <BuildControls />
-    </div>
-  );
+	return (
+		<div>
+			<Burger ingredients={ingredients} />
+			<BuildControls />
+		</div>
+	);
 };
+
+let x = 10;
 
 ReactDOM.render(<App />, document.getElementById("root"));
