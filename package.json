@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://github.com/Xapollon430/BurgerMaker#readme",
 	"dependencies": {
+		"file-loader": "^4.2.0",
 		"react": "^16.11.0",
 		"react-dom": "^16.11.0"
 	},
