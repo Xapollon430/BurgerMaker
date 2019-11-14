@@ -13,7 +13,9 @@ const App = () => {
 		bacon: 0
 	});
 
-	const addIngredient = label => {};
+	const addIngredient = label => {
+		let x;
+	};
 
 	const removeIngredient = label => {};
 
